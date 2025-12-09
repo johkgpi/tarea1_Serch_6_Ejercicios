@@ -1,0 +1,52 @@
+
+#Zelda_Map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contenido {
+    position: relative;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 10px black;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+/* Lista de botones */
+.lista {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+}
+
+.lista li {
+    background: rgba(255,255,255,0.35);
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    color: black;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    border: 1px solid #ccc;
+    backdrop-filter: blur( 5px );
+}
+
+/* Animación al pasar el mouse */
+.lista li:hover {
+    transform: scale(1.08);
+    background: rgba(255,255,255,0.55);
+}
