@@ -1,0 +1,40 @@
+#Jojo_Fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.contenido {
+    position: relative;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    margin-top: 20vh;
+    font-family: Arial, sans-serif;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #ff6be6;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: #ff89f0;
+}
